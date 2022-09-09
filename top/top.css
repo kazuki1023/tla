@@ -1,0 +1,68 @@
+/* headerのcss */
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header {
+  display: flex;
+  padding: 18px 5px 15px 10px;
+  background-image: url(../img/logo/IMG_0664.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  height: 60px;
+  opacity: 0.8;
+}
+
+.header_logo_link_img{
+  height: 60px;
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+.header_nav {
+  display: flex;
+  margin-left: auto;
+  align-content: center;
+}
+
+.header_nav_list {
+  display: flex;
+  font-size: 14px;
+  gap: 30px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.header_nav_list_item {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(213, 211, 211);
+  letter-spacing: 0.1em;
+}
+
+.header_sns {
+  display: flex;
+  gap: 20px;
+  margin-top: 4px;
+}
+
+.header_sns_item {
+  display: flex;
+  align-items: center;
+  border: solid 1px transparent;
+  border-radius: 50%;
+  color: #adadad;
+  display: inline-flex;
+  font-size: 24px;
+  height: 50px;
+  justify-content: center;
+  width: 50px;
+}
+
+.header_sns_item_icon {
+  padding-top: 5px;
+}
