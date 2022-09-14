@@ -98,9 +98,12 @@ header {
 }
 
 .EnglishSubtitle {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -20px;
   font-size: 0.5em;
+  text-align: center;
+  width: 450px;
 }
 /*==================================================
 スライダーのためのcss
@@ -181,10 +184,10 @@ opacity: 1;/*透過なし*/
 /* footerのcss */
 .footer_line {
   position: fixed;
-  bottom: 30px;
+  bottom: 6vh;
   right: 20px;
-  height: 80px;
-  width: 280px;
+  height: 7vh;
+  /* width: 20vw; */
 }
 
 .footer_line_link {
@@ -198,7 +201,7 @@ opacity: 1;/*透過なし*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px 20px 10px 20px;
+  padding: 1vw 2vw 1vw 2vw;
   text-decoration: none;
 }
 
@@ -225,5 +228,6 @@ opacity: 1;/*透過なし*/
 .footer_line_link_info {
   color: #fff;
   margin-left: 12px;
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=top.css.map */
