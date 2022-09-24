@@ -231,3 +231,45 @@ opacity: 1;/*透過なし*/
   font-size: 0.8em;
 }
 /*# sourceMappingURL=top.css.map */
+
+@media screen and (max-width: 959px) {
+  /* 959px以下に適用されるcss */
+
+}
+
+/* レスポンシブデザイン 767px以下の時*/
+@media (max-width: 767px) {
+  /* footer */ 
+  .footer_inner {
+    padding: 30px ;
+  }
+  .footer_main_info_img_link {
+    margin-top: 30px;
+  }
+
+  /* footerのline */
+  .footer_line {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .footer_line_link {
+    gap: 8px;
+    border-radius: 0;
+    justify-content: center;
+    padding: 0 0;
+  }
+  .footer_line_link_info {
+    margin-left: 0;
+  }
+  .footer_line_link_info br {
+    display: none;
+  }
+  .footer_line_link_info_posse {
+    display: none;
+  }
+  .footer_line_link_icon_link {
+    margin-left: 0;
+  }
+};
